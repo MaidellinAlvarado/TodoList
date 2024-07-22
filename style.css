@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/imagenes/dreams.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background-color: #eacbff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 33px;
+    opacity: 70%;
+}
+
+.todo-form {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#task-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #efadad;
+    border-radius: 4px;
+}
+
+#add {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1b201b;
+    color: #e7e7e7;
+    border-radius: 100px;
+    border-radius: 4px;
+    cursor: sw-resize;
+}
+
+#add:hover {
+    background-color: #9b85a7;
+}
+
+ul {
+    list-style-type:circle;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: hsl(285, 32%, 77%);
+    border-bottom: 1px solid #38c45d;
+    display: flex;
+    justify-content: space-between;
+    border-style: outset;
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+    color: rgb(236, 20, 20);
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #8b0707;
+    font-family:sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif}
+
+button:hover {
+    color: #000;
+    background-color: #bd6a6a;
+}
